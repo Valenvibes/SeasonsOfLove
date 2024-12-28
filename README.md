@@ -1,6 +1,3 @@
-# Cozy Cabin Cafe - A personality quiz
-Welcome to the repo for Cozy Cabin Cafe! This project takes users through a 6-question personality quiz, which assigns them a cozy winter drink based on their answers.
-## Try it now!
-<https://korevillo.github.io/cozycabincafe>
-## Attributions
-I drew all the illustrations! Please refrain from using these images without my permission.
+## Acknowledgments
+We would like to thank [Korevillo](https://github.com/korevillo) for their project [Cozy Cabin Cafe](https://github.com/korevillo/cozycabincafe), which provided valuable components and ideas used in this project.  
+Your work has greatly contributed to our development process, and we deeply appreciate it.
