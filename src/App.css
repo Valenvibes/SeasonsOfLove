@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ECF8FE;
+  background-color: #ffe5f2;
   overflow-y: auto;
 }
 
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: flex-start;
 
-  background-color: #ECF8FE;
+  background-color: #ffd9f6;
 }
 
 .start-page {
@@ -55,7 +55,7 @@ img {
 }
 
 h1 {
-  font-family: "Darumadrop One", sans-serif;
+  font-family: "Mitr", sans-serif;
   font-weight: 400;
   color:#172A3A;
   text-align: center;
@@ -63,16 +63,16 @@ h1 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Mitr", sans-serif;
   color:#172A3A;
   text-align: center;
   font-size: 1rem;
 }
 
 button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Mitr", sans-serif;
   color: #ECF8FE;
-  background-color: #172A3A;
+  background-color: #ff6fc1;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -83,6 +83,6 @@ button {
 }
 
 button:hover {
-  background-color: #508AB9;
+  background-color: #ffabf8;
   transition-duration: 30ms;
 }

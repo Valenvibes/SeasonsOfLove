@@ -13,51 +13,51 @@ import matchaLatte from '../images/matcha-latte.png';
 
 const questions = [
   {
-    question: "Before you settle in, pick a pastry to enjoy with your drink. It's on the house!",
+    question: "คำถาม 1",
     options: [
-      { text: "A delicate macaron with just the right amount of sweetness.", drink: "Matcha Latte" },
-      { text: "A warm, spiced muffin that feels like a hug in every bite.", drink: "Golden Milk" },
-      { text: "A soft and chewy cookie with chocolate chips throughout.", drink: "Hot Chocolate" }
+      { text: "A", drink: "Matcha Latte" },
+      { text: "B", drink: "Golden Milk" },
+      { text: "C", drink: "Hot Chocolate" }
     ]
   },
   {
-    question: "As you head toward the seating area, you spot a friend! Who is it?",
+    question: "คำถาม 2",
     options: [
-      { text: "Blizzard: A playful polar bear who always knows how to cheer you up.", drink: "Peppermint Mocha" },
-      { text: "Maple: A warm-hearted fox who loves reminiscing on cozy winter days.", drink: "Pumpkin Spice Latte" },
-      { text: "Aspen: A curious and adventurous owl with exciting stories to share.", drink: "Chai Latte" }
+      { text: "A", drink: "Peppermint Mocha" },
+      { text: "B", drink: "Pumpkin Spice Latte" },
+      { text: "C", drink: "Chai Latte" }
     ]
   },
   {
-    question: "Your friend hands you a present! You carefully unwrap it and find...",
+    question: "คำถาม 3",
     options: [
-      { text: "A fluffy scarf to keep you cozy in the freezing cold.", drink: "Pumpkin Spice Latte" },
-      { text: "A handmade mug with a charming design, perfect for a sip of something warm.", drink: "Hot Chocolate" },
-      { text: "A shiny snow globe with sparkles to bring the winter cheer.", drink: "Peppermint Mocha" }
+      { text: "A", drink: "Pumpkin Spice Latte" },
+      { text: "B", drink: "Hot Chocolate" },
+      { text: "C", drink: "Peppermint Mocha" }
     ]
   },
   {
-    question: "Time to find a seat in the cafe! Which do you choose?",
+    question: "คำถาม 4",
     options: [
-      { text: "A spot by the fireplace, where the warmth and festive cheer are irresistible.", drink: "Peppermint Mocha" },
-      { text: "A cozy corner with a big, comfy chair and a stack of books for browsing.", drink: "Matcha Latte" },
-      { text: "A window seat, where you can watch the snow fall and dream of new adventures.", drink: "Chai Latte" }
+      { text: "A", drink: "Peppermint Mocha" },
+      { text: "B", drink: "Matcha Latte" },
+      { text: "C", drink: "Chai Latte" }
     ]
   },
   {
-    question: "While you wait, a musician begins to play in the café! What tune fills the air?",
+    question: "คำถาม 5",
     options: [
-      { text: "A soft melody on an acoustic guitar, soothing and soulful.", drink: "Golden Milk" },
-      { text: "A cheerful piano tune, like the soundtrack to a classic winter movie.", drink: "Hot Chocolate" },
-      { text: "A lively fiddle piece that makes you want to get up and dance!", drink: "Chai Latte" }
+      { text: "A", drink: "Golden Milk" },
+      { text: "B", drink: "Hot Chocolate" },
+      { text: "C", drink: "Chai Latte" }
     ]
   },
   {
-    question: "The scene is set: snacks, music, and cozy vibes. You reach into your bag for a finishing touch. What do you pull out?",
+    question: "คำถาม 6",
     options: [
-      { text: "A well-loved journal, perfect for jotting down your thoughts and dreams.", drink: "Pumpkin Spice Latte" },
-      { text: "A beautifully illustrated book, ready to whisk you away to another world.", drink: "Matcha Latte" },
-      { text: "A soft-knit blanket, perfect for wrapping yourself up in comfort.", drink: "Golden Milk" }
+      { text: "A", drink: "Pumpkin Spice Latte" },
+      { text: "B", drink: "Matcha Latte" },
+      { text: "C", drink: "Golden Milk" }
     ]
   },
 ];
@@ -174,9 +174,9 @@ function Quiz() {
 
       <button className="next-btn"
         onClick={handleNextQuestion}
-        disabled={!selectedAnswer} // Disable the button until an answer is selected
+        enable={!selectedAnswer} // Disable the button until an answer is selected
       >
-        Next &gt;
+        ไปต่อ &gt;
       </button>
     </div>
 );

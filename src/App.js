@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Quiz from "./components/Quiz";
-import theCabin from './images/the-cabin.png';
-import "./App.css"
+import theCabin from "./images/Nlove_stand.png";
+import "./App.css";
 
 const App = () => {
   const [showStartPage, setShowStartPage] = useState(true);
@@ -15,15 +15,26 @@ const App = () => {
       <div className="container">
         {showStartPage ? (
           <div className="start-page">
-            <img src={theCabin} alt="The Cozy Cabin Cafe"/>
-
-            <h1>Welcome to the Cozy Cabin Cafe!</h1>
-            
-            <p>
-              Season’s greetings, winter traveler!
-              Sit back and relax while we brew something special for you!
-            </p>
-            <button onClick={handleStartQuiz}>Start Quiz</button>
+            <img 
+              src={theCabin} 
+              alt="sleepyyot" 
+              style={{ 
+                width: "300px",          // ความกว้างสูงสุดของภาพ
+                height: "auto",          // ปรับความสูงให้อัตโนมัติ
+                maxWidth: "500%",        // ไม่ให้เกินขนาดของ container
+                objectFit: "contain",    // รักษาสัดส่วนของภาพ
+                marginBottom: "-20px"     // ระยะห่างจากด้านล่าง
+              }} 
+            />
+            <h1 style={{
+    fontSize: "30px", }} > มาตามหาตัวตนกัน ว่าคุณเป็นหมาหรือแมวสายพันธ์ุใด?</h1>
+            <p>ค้นหาความเป็นหมาแมวในตัวคุณ!</p>
+            <button 
+              onClick={handleStartQuiz} 
+              style={{ fontSize: '24px', padding: '15px 25px' }}
+            >
+              ไปกันเลยยย
+            </button>
           </div>
         ) : (
           <Quiz />

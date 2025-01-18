@@ -14,7 +14,7 @@
     justify-content: center;
 
     width: 100%;
-    border: 2px dashed #172A3A;
+    border: 2px dashed #ffffff;
     box-sizing: border-box;
 }
 
@@ -37,14 +37,14 @@
     padding-top: calc(100vw * 0.02);
     padding-bottom: calc(100vw * 0.02);
 
-    background-color: #172A3A;
+    background-color: #ff99d2;
 }
 
 .resultHeader h3 {
     font-size: 1rem;
     font-family: "Darumadrop One", sans-serif;
     margin: 0;
-    color: #ECF8FE;
+    color: #dcff13;
     font-weight: 400;
     text-align: center;
 }
@@ -63,7 +63,7 @@
     margin-bottom: 0;
     padding-top: calc(100vw * 0.01);
     font-size: 2rem;
-    color: #172A3A;
+    color: #ff0000;
 }
 
 .resultDrink img {
@@ -79,7 +79,7 @@
     padding-right: calc(100vw * 0.05);
     padding-bottom: calc(100vw * 0.02);
     font-size: 0.75rem;
-    color: #172A3A;
+    color: #02a905;
     margin-bottom: 0;
 }
 
@@ -99,7 +99,7 @@
 
     box-sizing: border-box;
 
-    border-top: 2px dashed #172A3A;
+    border-top: 2px dashed #ffffff;
 }
 
 .pairLeft {
@@ -110,12 +110,12 @@
 }
 
 .pairLeft h4 {
-    font-family: "Darumadrop One", sans-serif;
+    font-family: "Darumadrop One", sans-serif; 
     font-size: 1rem;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     text-align: center;
-    color: #172A3A;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -125,7 +125,7 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     text-align: center;
-    color: #172A3A;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -149,7 +149,7 @@
 .quizAgain {
     background: none;
     font-size: 0.75rem;
-    color: #172A3A;
+    color: #000000;
     padding: 0 0 0 0;
     width: fit-content;
     cursor: pointer;
@@ -167,7 +167,7 @@
 .attribution {
     font-family: "Poppins", sans-serif;
     font-size: 0.6rem;
-    color: #ECF8FE;
+    color: #000000;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -176,10 +176,10 @@
     padding-top: calc(100vw * 0.03);
     padding-bottom: calc(100vw * 0.03);
 
-    background-color: #172A3A;
+    background-color: #ff9494;
 }
 
 .attribution a {
-    color: #ECF8FE;
+    color: #ffffff;
     text-decoration: none;
 }

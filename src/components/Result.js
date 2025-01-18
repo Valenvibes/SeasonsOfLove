@@ -6,7 +6,7 @@ function Result({ drink, compatible, description, drinkImage, compatibleImage, r
     <div className='borderedArea'>
       <div className="resultContainer">
         <div className='resultHeader'>
-          <h3>⋆˙𐙚 Your Special Drink ❅˙⋆</h3>
+          <h3>⋆˙𐙚 Your pet type ❅˙⋆</h3>
         </div>
         
         <div className='resultDrink'>
@@ -26,10 +26,10 @@ function Result({ drink, compatible, description, drinkImage, compatibleImage, r
             <img src={compatibleImage} alt={compatible} />
           </div>
         </div>
-        <div className='attribution'><a href="https://instagram.com/notekating" target="_blank" rel="noopener noreferrer">Cozy Cabin Cafe Quiz by IG@notekating</a></div>
+        <div className='attribution'><a href="https://www.instagram.com/f.__d_me/" target="_blank" rel="noopener noreferrer">Seasons Of Love Quiz by @f.__d_me</a></div>
       </div>
       
-      <button className='quizAgain' onClick={restartQuiz}>Take the Quiz Again &gt;</button>
+      <button className='quizAgain' onClick={restartQuiz}>ย้อนกลับ &gt;</button>
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import theCabin from '../images/the-cabin.png';
+import Nlove from '../images/Nlove.png';
 import "../styles/question.css"
 
 function Question({ question, options, onAnswer, selectedAnswer }) {
   return (
     <div className="question-page">
-      <a href="https://korevillo.github.io/cozycabincafe"><img src={theCabin} alt="The Cozy Cabin Cafe"/></a>
+      <a href="https://korevillo.github.io/cozycabincafe"><img src={Nlove} alt="Nlove"/></a>
 
       <h1>{question}</h1>
       {options.map((option, index) => (
