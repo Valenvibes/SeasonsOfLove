@@ -4,96 +4,97 @@ import Result from "./Result";
 
 import "../styles/next-btn.css"
 
-import pumpkinSpiceLatte from '../images/pumpkin-spice-latte.png';
-import goldenMilk from '../images/golden-milk.png';
-import chaiLatte from '../images/chai-latte.png';
-import hotChocolate from '../images/hot-chocolate.png';
-import peppermintMocha from '../images/peppermint-mocha.png';
-import matchaLatte from '../images/matcha-latte.png';
+import แมวส้ม from '../images/แมวส้ม.png';
+import หมาตำรวจ from '../images/หมาตำรวจ.png';
+import แมวสามสี from '../images/แมวสามสี.png';
+import แมวดำ from '../images/แมวดำ.png';
+import หมาไซบีเรียน from '../images/หมาไซบีเรียน.png';
+import หมาแดงโกลเด้น from '../images/หมาแดงโกลเด้น.png';
 
 const questions = [
   {
-    question: "คำถาม 1",
+    question: "เวลาต้องเจอคนใหม่ๆคุณเป็นยังไง?",
     options: [
-      { text: "A", drink: "Matcha Latte" },
-      { text: "B", drink: "Golden Milk" },
-      { text: "C", drink: "Hot Chocolate" }
+      { text: "ชอบพูดจาน่ารักๆ แถมมีท่าน่ารักตลอด", drink: "หมาแดงโกลเด้น" },
+      { text: "อ่านสถานการณ์ไว ปรับตัวเก่ง แก้ปัญหาได้เร็ว", drink: "หมาตำรวจ" },
+      { text: "ค่อนข้างเงียบๆ ชอบอยู่สงบๆ มากกว่า", drink: "แมวดำ" }
     ]
   },
   {
-    question: "คำถาม 2",
+    question: "อะไรที่สำคัญกับคุณมากที่สุด?",
     options: [
-      { text: "A", drink: "Peppermint Mocha" },
-      { text: "B", drink: "Pumpkin Spice Latte" },
-      { text: "C", drink: "Chai Latte" }
+      { text: "คอยดูแลและใส่ใจคนรอบข้างเสมอ", drink: "หมาตำรวจ" },
+      { text: "รู้สึกว่าสิ่งที่ตัวเองต้องการสำคัญที่สุด", drink: "แมวส้ม" },
+      { text: "อยากได้ความรักดีๆ และพร้อมจะเจอคนที่ใช่", drink: "แมวสามสี" }
     ]
   },
   {
-    question: "คำถาม 3",
+    question: "ถ้าเจอปัญหาคุณมักจะทำยังไง?",
     options: [
-      { text: "A", drink: "Pumpkin Spice Latte" },
-      { text: "B", drink: "Hot Chocolate" },
-      { text: "C", drink: "Peppermint Mocha" }
+      { text: "คิดก่อนพูด วางแผนให้รอบคอบ", drink: "แมวดำ" },
+      { text: "หาอะไรสนุกๆ ทำให้ตัวเองอารมณ์ดีขึ้น", drink: "หมาไซบีเรียน" },
+      { text: "พยายามทำตัวสุภาพและรับมือกับทุกอย่างอย่างใจเย็น", drink: "หมาแดงโกลเด้น" }
     ]
   },
   {
-    question: "คำถาม 4",
+    question: "เพื่อนๆมักบอกว่าคุณเป็นคนแบบไหน?",
     options: [
-      { text: "A", drink: "Peppermint Mocha" },
-      { text: "B", drink: "Matcha Latte" },
-      { text: "C", drink: "Chai Latte" }
+      { text: "ทำอะไรก็ดูมีเสน่ห์ ดูดีไปหมด", drink: "แมวสามสี" },
+      { text: "เป็นคนเป๊ะๆ ชอบให้ทุกอย่างเป็นระเบียบ ", drink: "แมวส้ม" },
+      { text: "อยู่ด้วยแล้วสนุก เฮไหนเฮนั่น", drink: "หมาไซบีเรียน" },
     ]
   },
   {
-    question: "คำถาม 5",
+    question: "ถ้าเพื่อนมีเรื่องเครียดคุณจะทำยังไง?",
     options: [
-      { text: "A", drink: "Golden Milk" },
-      { text: "B", drink: "Hot Chocolate" },
-      { text: "C", drink: "Chai Latte" }
+      { text: "รับรู้ได้ทันทีว่าเขาคิดอะไรอยู่ แล้วช่วยปลอบ", drink: "แมวสามสี" },
+      { text: "เข้าไปชวนคุย ชวนเล่นให้เขารู้สึกดีขึ้น", drink: "หมาไซบีเรียน" },
+      { text: "สังเกตอารมณ์เพื่อนเงียบๆ แล้วค่อยช่วยปลอบอย่างเข้าใจ", drink: "แมวดำ" },
     ]
   },
   {
-    question: "คำถาม 6",
+    question: "ข้อไหนที่เป็นคุณมากที่สุด?",
     options: [
-      { text: "A", drink: "Pumpkin Spice Latte" },
-      { text: "B", drink: "Matcha Latte" },
-      { text: "C", drink: "Golden Milk" }
+      { text: "ไหวพริบดี แก้ปัญหาไว ไม่ปล่อยให้เรื่องยุ่งนาน", drink: "หมาตำรวจ" },
+      { text: "เป็นตัวของตัวเอง ชอบใช้ชีวิตอิสระ", drink: "แมวส้ม" },
+      { text: "หัวเราะกับเรื่องเล็กๆน้อยๆ ได้ง่าย", drink: "หมาแดงโกลเด้น" },
     ]
   },
 ];
 
 const drinks = {
-  "Pumpkin Spice Latte": { 
-    image: pumpkinSpiceLatte, 
-    compatible: "Golden Milk", 
-    description: "You are cozy, warm, and delightfully nostalgic. You cherish traditions and the little things that make life sweet, like the scent of cinnamon and crisp autumn air. Your approachable, down-to-earth nature makes you the perfect companion for those cozy afternoons and good times with friends!" 
+  "แมวส้ม": { 
+    image: แมวส้ม, 
+    compatible: "หมาตำรวจ", 
+    description: "คุณคือรักที่เต็มไปด้วยเสน่ห์น่าค้นหา เข้าใจอารมณ์และความรู้สึกของคนรอบข้างเป็นอย่างดี อยู่ด้วยแล้วรู้สึกเหมือนได้รับพลังจากคนที่เข้าใจเราทั้งหมด พร้อมเปิดใจรับรักและมอบความรู้สึกดีๆ ตลอดเวลา" 
   },
-  "Golden Milk": { 
-    image: goldenMilk, 
-    compatible: "Pumpkin Spice Latte", 
-    description: "You are radiant, kind-hearted, and full of positive energy. You love creating warmth and comfort for others, always offering care and wisdom. Your nurturing spirit lights up any room, and your joyful outlook spreads peace and happiness wherever you go!" 
+  "หมาตำรวจ": { 
+    image: หมาตำรวจ,
+    compatible: "แมวส้ม", 
+    description: "คุณคือรักที่มั่นคงและน่าเชื่อถือ ซื่อสัตย์ต่อคำพูดและความรู้สึก พร้อมเป็นที่พึ่งให้คนรักเสมอ ไม่ว่าสถานการณ์ไหนก็แก้ไขได้ด้วยสติและความมุ่งมั่น ใครที่อยู่ข้าง ๆ คุณจะรู้สึกปลอดภัย" 
   },
-  "Chai Latte": { 
-    image: chaiLatte, 
-    compatible: "Matcha Latte", 
-    description: "You are vibrant, adventurous, and always ready for a good time! You dive into life with energy and enthusiasm, seeking out new challenges and flavors to experience. Your curiosity makes every day an adventure, and you're always ready to tackle what comes next!" 
+  "แมวสามสี": { 
+    image: แมวสามสี, 
+    compatible: "หมาไซบีเรียน", 
+    description: "คุณคือรักที่เต็มไปด้วยเสน่ห์น่าค้นหา เข้าใจอารมณ์และความรู้สึกของคนรอบข้างเป็นอย่างดี อยู่ด้วยแล้วรู้สึกเหมือนได้รับพลังจากคนที่เข้าใจเราทั้งหมด พร้อมเปิดใจรับรักและมอบความรู้สึกดีๆ ตลอดเวลา" 
   },
-  "Hot Chocolate": { 
-    image: hotChocolate, 
-    compatible: "Peppermint Mocha", 
-    description: "You are sweet, comforting, and a dependable friend. You find joy in simple pleasures, like sharing cozy moments and making everyone feel appreciated. You're the heart of any gathering, and you make people smile wherever you go!" 
+  "แมวดำ": { 
+    image: แมวดำ, 
+    compatible: "หมาแดงโกลเด้น",
+    description: "คุณคือรักที่นิ่งสงบแต่ลึกซึ้ง คิดก่อนพูดและให้ความใส่ใจในรายละเอียด มอบความมั่นคงและความอบอุ่นเงียบ ๆ ที่ทำให้รู้สึกปลอดภัยเหมือนได้พักใจในที่ที่เป็นของเรา" 
   },
-  "Peppermint Mocha": { 
-    image: peppermintMocha, 
-    compatible: "Hot Chocolate", 
-    description: "You are lively, energetic, and ready to make every moment unforgettable! You thrive in the hustle and bustle of the season, bringing excitement and cheer wherever you are. With your perfect mix of fun and warmth, you're the life of the party!" 
+  "หมาไซบีเรียน": { 
+    image: หมาไซบีเรียน, 
+    compatible: "แมวสามสี", 
+    description: "คุณคือรักที่เปรียบเสมือนสายลมแห่งความสุข นำพาความสดใสและเสียงหัวเราะมาด้วยเสมอ อยู่ตรงไหนก็บันเทิงตรงนั้น ชอบเติมสีสันให้ทุกวันไม่น่าเบื่อ" 
   },
-  "Matcha Latte": { 
-    image: matchaLatte, 
-    compatible: "Chai Latte", 
-    description: "You are serene, thoughtful, and have a natural calmness that others admire. You embrace the beauty in life's quiet moments and enjoy reflecting on what truly matters. Your personality radiates creativity and balance, making every day feel just a little brighter and more meaningful." 
+  "หมาแดงโกลเด้น": { 
+    image: หมาแดงโกลเด้น, 
+    compatible: "แมวดำ", 
+    description: "คุณคือรักที่อบอุ่นเหมือนแสงแดดยามเช้า เต็มไปด้วยพลังบวก หัวเราะง่าย และมอบความสบายใจให้กับคนรอบข้างได้เสมอ อยู่ด้วยแล้วรู้สึกถึงความรักที่จริงใจและเป็นธรรมชาติ" 
   }
 };
+
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -101,6 +102,8 @@ function Quiz() {
   const [scores, setScores] = useState({});
   const [result, setResult] = useState(null);
 
+  
+  
   function handleAnswer(drink) {
     setScores((prevScores) => {
       const newScores = { ...prevScores };
@@ -148,7 +151,7 @@ function Quiz() {
     setScores({});
     setResult(null);
   }
-
+  
   if (result) {
     const compatible = drinks[result].compatible;
     return (
@@ -174,7 +177,7 @@ function Quiz() {
 
       <button className="next-btn"
         onClick={handleNextQuestion}
-        enable={!selectedAnswer} // Disable the button until an answer is selected
+        disabled={!selectedAnswer} // Disable the button until an answer is selected
       >
         ไปต่อ &gt;
       </button>

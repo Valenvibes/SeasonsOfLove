@@ -14,7 +14,7 @@
     justify-content: center;
 
     width: 100%;
-    border: 2px dashed #ffffff;
+    border: 2px dashed #F6BDD0;
     box-sizing: border-box;
 }
 
@@ -37,14 +37,14 @@
     padding-top: calc(100vw * 0.02);
     padding-bottom: calc(100vw * 0.02);
 
-    background-color: #ff99d2;
+    background-color: #F8E6D0;
 }
 
 .resultHeader h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: "Darumadrop One", sans-serif;
     margin: 0;
-    color: #dcff13;
+    color: #000000;
     font-weight: 400;
     text-align: center;
 }
@@ -63,7 +63,7 @@
     margin-bottom: 0;
     padding-top: calc(100vw * 0.01);
     font-size: 2rem;
-    color: #ff0000;
+    color: #000000;
 }
 
 .resultDrink img {
@@ -79,7 +79,7 @@
     padding-right: calc(100vw * 0.05);
     padding-bottom: calc(100vw * 0.02);
     font-size: 0.75rem;
-    color: #02a905;
+    color: #000000;
     margin-bottom: 0;
 }
 
@@ -99,7 +99,7 @@
 
     box-sizing: border-box;
 
-    border-top: 2px dashed #ffffff;
+    border-top: 2px dashed #F6BDD0;
 }
 
 .pairLeft {
@@ -111,7 +111,7 @@
 
 .pairLeft h4 {
     font-family: "Darumadrop One", sans-serif; 
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     text-align: center;
@@ -120,7 +120,7 @@
 }
 
 .pairLeft h3 {
-    font-family: "Darumadrop One", sans-serif;
+    font-family: "Mitr", sans-serif; 
     font-size: 1.75rem;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -176,10 +176,10 @@
     padding-top: calc(100vw * 0.03);
     padding-bottom: calc(100vw * 0.03);
 
-    background-color: #ff9494;
+    background-color: #F8E6D0;
 }
 
 .attribution a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }

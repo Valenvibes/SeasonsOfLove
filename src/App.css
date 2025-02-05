@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ffe5f2;
+  background-color: #FBF4E5;
   overflow-y: auto;
 }
 
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: flex-start;
 
-  background-color: #ffd9f6;
+  background-color: #FBF4E5;
 }
 
 .start-page {
@@ -57,14 +57,14 @@ img {
 h1 {
   font-family: "Mitr", sans-serif;
   font-weight: 400;
-  color:#172A3A;
+  color:#000000;
   text-align: center;
   font-size: 2.5rem;
 }
 
 p {
   font-family: "Mitr", sans-serif;
-  color:#172A3A;
+  color:#000000;
   text-align: center;
   font-size: 1rem;
 }
@@ -72,7 +72,7 @@ p {
 button {
   font-family: "Mitr", sans-serif;
   color: #ECF8FE;
-  background-color: #ff6fc1;
+  background-color: #F6BDD0;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -83,6 +83,6 @@ button {
 }
 
 button:hover {
-  background-color: #ffabf8;
+  background-color: #f6cad9;
   transition-duration: 30ms;
 }
