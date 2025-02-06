@@ -18,7 +18,7 @@ function Result({ drink, compatible, description, drinkImage, compatibleImage, r
         <div className='resultPair'>
 
           <div className="pairLeft">
-            <h4>Your perfect pair</h4>
+            <h4>Your perfect match</h4>
             <h3>{compatible}</h3>
           </div>
 
