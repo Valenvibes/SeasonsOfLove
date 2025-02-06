@@ -27,7 +27,6 @@ function Result({ drink, compatible, description, drinkImage, compatibleImage, r
           </div>
         </div>
         <div className='attribution'><a href="https://www.instagram.com/seasonsoflove.vlvbs/" target="_blank" rel="noopener noreferrer">มาส่องความรัก ว่าเป็น รัก หลง หรือดู ได้ที่งาน SEASONS OF LOVE เทศกาลส่องรักหลงฤดู!
-
 ติดตามรายละเอียดเพิ่มเติมได้ที่ instagram : seasonsoflove.vlvbs</a></div>
       </div>
       
