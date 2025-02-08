@@ -5,11 +5,11 @@ import Result from "./Result";
 import "../styles/next-btn.css"
 
 import แมวส้ม from '../images/แมวส้ม.png';
-import หมาตำรวจ from '../images/หมาตำรวจ.png';
+import หมาตำรวจ from '../images/policedog.png';
 import แมวสามสี from '../images/แมวสามสี.png';
 import แมวดำ from '../images/แมวดำ.png';
 import หมาไซบีเรียน from '../images/หมาไซบีเรียน.png';
-import หมาแดงโกลเด้น from '../images/หมาแดงโกลเด้น.png'; 
+import หมาแดงโกลเด้น from '../images/หมาแดงโกลเด้น.png';
 
 const questions = [
   {
@@ -66,7 +66,7 @@ const drinks = {
   "แมวส้ม": { 
     image: แมวส้ม, 
     compatible: "หมาตำรวจ", 
-    description: "คุณคือรักที่อิสระแต่ก็รักจริง มีพื้นที่ของตัวเองแต่ก็พร้อมให้ความสำคัญกับคนที่รักเสมอ ใช้ชีวิตตามจังหวะของตัวเองแต่ก็มอบความสบายใจให้คนข้างๆได้อย่างเป็นธรรมชาติ" 
+    description: "คุณคือรัืมีพื้นที่ของตัวเองแต่ก็พร้อมให้ความสำคัญกับคนที่รักเสมอ ใช้ชีวิตตามจังหวะของตัวเองแต่ก็มอบความสบายใจให้คนข้างๆได้อย่างเป็นธรรมชาติ" 
   },
   "หมาตำรวจ": { 
     image: หมาตำรวจ,
