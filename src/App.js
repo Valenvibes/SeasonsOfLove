@@ -1,4 +1,4 @@
-import { act } from 'react';  // แก้ไขการ import เป็นจาก 'react' แทน 'react-dom/test-utils'
+import React, { useState } from "react";
 import Quiz from "./components/Quiz";
 import theCabin from "./images/Nlove_stand.png";
 import "./App.css";
@@ -27,7 +27,10 @@ const App = () => {
               }} 
             />
             <h1 style={{
-    fontSize: "30px", }} > มาตามหาตัวตนกัน ว่าคุณเป็นหมาหรือแมวสายพันธ์ุใด?</h1>
+              fontSize: "30px",
+            }}>
+              มาตามหาตัวตนกัน ว่าคุณเป็นหมาหรือแมวสายพันธ์ุใด?
+            </h1>
             <p>ค้นหาความเป็นหมาแมวในตัวคุณ!</p>
             <button 
               onClick={handleStartQuiz} 
