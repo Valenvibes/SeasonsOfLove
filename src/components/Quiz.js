@@ -9,7 +9,7 @@ import หมาตำรวจ from '../images/หมาตำรวจ.png';
 import แมวสามสี from '../images/แมวสามสี.png';
 import แมวดำ from '../images/แมวดำ.png';
 import หมาไซบีเรียน from '../images/หมาไซบีเรียน.png';
-import หมาแดงโกลเด้น from '../images/หมาแดงโกลเด้น.png';
+import หมาแดงโกลเด้น from '../images/หมาแดงโกลเด้น.png'; 
 
 const questions = [
   {
