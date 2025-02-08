@@ -33,7 +33,7 @@ const App = () => {
               onClick={handleStartQuiz} 
               style={{ fontSize: '24px', padding: '15px 25px' }}
             >
-              ไปกันเลยยย
+              ไปกันเลยยยย
             </button>
           </div>
         ) : (
