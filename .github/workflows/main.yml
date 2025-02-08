@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: [18.x, 20.x, 22.x]  # หรือเวอร์ชันที่คุณใช้
+          node-version: [18.x, 20.x]  # หรือเวอร์ชันที่คุณใช้
 
       - name: Install Dependencies
         run: npm install
