@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SeasonsOfLove/static/css/main.3b622e63.css",
-    "main.js": "/SeasonsOfLove/static/js/main.12795b2b.js",
+    "main.js": "/SeasonsOfLove/static/js/main.3d7ceead.js",
     "static/js/453.7d08db20.chunk.js": "/SeasonsOfLove/static/js/453.7d08db20.chunk.js",
     "static/media/หมาไซบีเรียน.png": "/SeasonsOfLove/static/media/หมาไซบีเรียน.a076f9e5e1cf2a47f4b1.png",
     "static/media/Nlove.png": "/SeasonsOfLove/static/media/Nlove.40adf08b9868d530125d.png",
@@ -13,11 +13,11 @@
     "static/media/แมวดำ.png": "/SeasonsOfLove/static/media/แมวดำ.4598305f4dd5372a13af.png",
     "index.html": "/SeasonsOfLove/index.html",
     "main.3b622e63.css.map": "/SeasonsOfLove/static/css/main.3b622e63.css.map",
-    "main.12795b2b.js.map": "/SeasonsOfLove/static/js/main.12795b2b.js.map",
+    "main.3d7ceead.js.map": "/SeasonsOfLove/static/js/main.3d7ceead.js.map",
     "453.7d08db20.chunk.js.map": "/SeasonsOfLove/static/js/453.7d08db20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b622e63.css",
-    "static/js/main.12795b2b.js"
+    "static/js/main.3d7ceead.js"
   ]
 }
