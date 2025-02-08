@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { act } from 'react';  // แก้ไขการ import เป็นจาก 'react' แทน 'react-dom/test-utils'
 import Quiz from "./components/Quiz";
 import theCabin from "./images/Nlove_stand.png";
 import "./App.css";
