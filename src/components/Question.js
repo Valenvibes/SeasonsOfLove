@@ -5,7 +5,7 @@ import "../styles/question.css"
 function Question({ question, options, onAnswer, selectedAnswer }) {
   return (
     <div className="question-page">
-      <a href="https://korevillo.github.io/cozycabincafe"><img src={Nlove} alt="Nlove"/></a>
+      <a href="https://valenvibes.github.io/SeasonsOfLove/"><img src={Nlove} alt="Nlove"/></a>
 
       <h1>{question}</h1>
       {options.map((option, index) => (
