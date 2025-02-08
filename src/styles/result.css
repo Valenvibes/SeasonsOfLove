@@ -1,43 +1,212 @@
-import React from "react";
-import "../styles/result.css";
-
-function Result({ drink, compatible, description, drinkImage, compatibleImage, restartQuiz }) {
-  return (
-    <div className='borderedArea'>
-      <div className="resultContainer">
-        <div className='resultHeader'>
-          <h3>ไทป์ของคุณ</h3>
-        </div>
-
-        <div className='resultDrink'>
-          <h1>{drink}</h1>
-          <img src={drinkImage} alt={drink} />
-          <p>{description}</p>
-        </div>
-
-        <div className='resultPair'>
-          <div className="pairLeft">
-            <h4>คู่หูของคุณคือ</h4>
-            <h3>{compatible}</h3>
-          </div>
-
-          <div className='pairRight'>
-            <img src={compatibleImage} alt={compatible} />
-          </div>
-        </div>
-
-        <div className='attribution'>
-          <a href="https://www.instagram.com/seasonsoflove.vlvbs/" target="_blank" rel="noopener noreferrer">Seasons of Love.vlvbs @seasonsoflove.vlvbs</a>
-        </div>
-      </div>
-
-      <button className='quizAgain' onClick={restartQuiz}>ทำแบบทดสอบอีกครั้ง &gt;</button>
-
-      
-      <div className='Credit'><a href="https://korevillo.github.io/cozycabincafe/" target="_blank" rel="noopener noreferrer">***ขอบคุณที่สนใจเล่นเกมกับเรานะค้าบ!
-        ขอบคุณต้นฉบับจาก korevillo นะครับ***</a></div>
-    </div>
-  );
+.borderedArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
 }
 
-export default Result;
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    border: 2px dashed #F6BDD0;
+    box-sizing: border-box;
+}
+
+.resultDrink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    padding-top: calc(100vw * 0.01);
+    padding-bottom: calc(100vw * 0.03);
+
+}
+
+.resultHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: calc(100vw * 0.02);
+    padding-bottom: calc(100vw * 0.02);
+
+    background-color: #F8E6D0;
+}
+
+.resultHeader h3 {
+    font-size: 2rem;
+    font-family: "Mitr", sans-serif;
+    margin: 0;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+}
+
+.resultDrink .resultRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: calc(100vw * 0.008);
+    padding-left: calc(100vw * 0.02);
+    padding-right: calc(100vw * 0.02);
+}
+
+.resultDrink h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: calc(100vw * 0.01);
+    font-size: 2rem;
+    color: #000000;
+}
+
+.resultDrink img {
+    padding-top: calc(100vw * 0.03);
+    height: 20vh;
+    width: 20vh;
+    object-fit: contain;
+    margin: 0;
+}
+
+.resultDrink p {
+    padding-left: calc(100vw * 0.05);
+    padding-right: calc(100vw * 0.05);
+    padding-bottom: calc(100vw * 0.02);
+    font-size: 0.75rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.resultPair {
+    display: flex;
+    flex-direction: row;
+
+
+    width: 100%;
+
+    padding-top: calc(100vw * 0.02);
+    padding-bottom: calc(100vw * 0.04);
+    padding-left: calc(100vw * 0.01);
+    padding-right: calc(100vw * 0.01);
+
+    margin: 0 0 0 0;
+
+    box-sizing: border-box;
+
+    border-top: 2px dashed #F6BDD0;
+}
+
+.pairLeft {
+    padding-left: calc(100vw * 0.004);
+    flex: 2;
+    justify-content: center;
+    align-content: center;
+}
+
+.pairLeft h4 {
+    font-family: "Mitr", sans-serif; 
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+}
+
+.pairLeft h3 {
+    font-family: "Mitr", sans-serif; 
+    font-size: 1.75rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+}
+
+.pairRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: calc(100vw * 0.02);
+}
+
+.pairRight img {
+    height: 15vh;
+    width: 15vh;
+    object-fit: contain;
+    margin: 0;
+}
+
+
+
+.quizAgain {
+    background: none;
+    font-size: 0.75rem;
+    color: #000000;
+    padding: 0 0 0 0;
+    width: fit-content;
+    cursor: pointer;
+
+    padding-top: calc(100vw * 0.015);
+    padding-bottom: calc(100vw * 0.03);
+}
+
+.quizAgain:hover {
+    text-decoration: underline;
+    background: none;
+    padding: none;
+}
+
+.attribution {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.6rem;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: calc(100vw * 0.03);
+    padding-bottom: calc(100vw * 0.03);
+
+    background-color: #F8E6D0;
+}
+
+.attribution a {
+    color: #000000;
+    text-decoration: none;
+}
+.attribution {
+    margin-bottom: 0;
+  }
+
+  .Credit {
+    font-family: "Mitr", sans-serif;
+    font-size: 0.9rem;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: calc(100vw * 0.03);
+    padding-bottom: calc(100vw * 0.03);
+
+
+}
+
+.Credit a {
+    color: #000000;
+    text-decoration: none;
+    white-space: nowrap; 
+}
+.Credit {
+    margin-bottom: 0;
+  }
