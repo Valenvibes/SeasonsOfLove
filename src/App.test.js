@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders start page correctly', () => {
+test('renders start page correctly', async () => {
   render(<App />);
-  const headingElement = screen.getByText(/มาตามหาตัวตนกัน ว่าคุณเป็นหมาหรือแมวสายพันธุ์ใด/i);
-  const buttonElement = screen.getByText(/ไปกันเลยยย/i);
+  const headingElement = await screen.findByText(/มาตามหาตัวตนกัน ว่าคุณเป็นหมาหรือแมวสายพันธุ์ใด/i);
+  const buttonElement = await screen.findByText(/ไปกันเลยยยย/i);
   expect(headingElement).toBeInTheDocument();
   expect(buttonElement).toBeInTheDocument();
 });
