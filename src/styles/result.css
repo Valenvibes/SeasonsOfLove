@@ -41,8 +41,8 @@
 }
 
 .resultHeader h3 {
-    font-size: 1.4rem;
-    font-family: "Darumadrop One", sans-serif;
+    font-size: 2rem;
+    font-family: "Mitr", sans-serif;
     margin: 0;
     color: #000000;
     font-weight: 400;
@@ -110,7 +110,7 @@
 }
 
 .pairLeft h4 {
-    font-family: "Darumadrop One", sans-serif; 
+    font-family: "Mitr", sans-serif; 
     font-size: 1.2rem;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -183,3 +183,30 @@
     color: #000000;
     text-decoration: none;
 }
+.attribution {
+    margin-bottom: 0;
+  }
+
+  .Credit {
+    font-family: "Mitr", sans-serif;
+    font-size: 0.9rem;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: calc(100vw * 0.03);
+    padding-bottom: calc(100vw * 0.03);
+
+
+}
+
+.Credit a {
+    color: #000000;
+    text-decoration: none;
+    white-space: nowrap; 
+}
+.Credit {
+    margin-bottom: 0;
+  }
